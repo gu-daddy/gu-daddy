@@ -230,7 +230,7 @@ section#downloads a {
   font-size: 1.3em;
 }
 
-section#downloads span {
+section#downloads p {
   display: block;
   position: relative;
   height: 67px;
@@ -251,12 +251,12 @@ section#downloads a em {
   display: block;
 }
 
-section#downloads span.zip {
+section#downloads p.zip {
   float: left;
   background-position: 0 0;
 }
 
-section#downloads span.tgz {
+section#downloads p.tgz {
   float: right;
   background-position: -275px 0;
 }

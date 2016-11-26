@@ -230,6 +230,21 @@ section#downloads a {
   font-size: 1.3em;
 }
 
+section#downloads span {
+  display: block;
+  position: relative;
+  height: 67px;
+  width: 275px;
+  padding-top: 130px;
+  background: transparent url(../images/download-sprite.png) 0 0 no-repeat;
+  text-align: center;
+  line-height: 1;
+  color: #fff;
+  font-family: 'Open Sans', Myriad, Calibri, sans-serif;
+  font-weight: 800;
+  font-size: 1.3em;
+}
+
 section#downloads a em {
   font: bold italic 12px/1 Georgia, Times, “Times New Roman”, serif;
   color: #83b7da;

@@ -195,7 +195,8 @@ header h2 {
   text-align: center;
 }
 
-section#downloads {
+section#downloads,
+div#no-downloads {
   position: relative;
   display: block;
   height: 197px;
@@ -204,6 +205,14 @@ section#downloads {
   margin: -80px auto -150px;
   z-index: 1;
   background: transparent url(../images/bg-ramp.jpg) center 171px no-repeat;
+}
+
+div#no-downloads span.inner {
+  display: block;
+  position: relative;
+  height: 197px;
+  width: 550px;
+  background: transparent url(../images/download-sprite.png) 0 0 no-repeat;
 }
 
 section#downloads a {
@@ -221,6 +230,10 @@ section#downloads a {
   font-size: 1.3em;
 }
 
+section#downloads a:hover {
+  text-decoration: none;
+}
+
 section#downloads a em {
   font: bold italic 12px/1 Georgia, Times, “Times New Roman”, serif;
   color: #83b7da;
@@ -234,6 +247,14 @@ section#downloads a.zip {
 
 section#downloads a.tgz {
   float: right;
+  background-position: -275px 0;
+}
+
+section#downloads a.zip:hover {
+  background-position: 0 -197px;
+}
+
+section#downloads a.tgz:hover {
   background-position: -275px -197px;
 }
 
@@ -248,7 +269,7 @@ span.banner-fix {
 
 section#main_content {
   z-index: 2;
-  padding: 50px 82px 0;
+  padding: 20px 82px 0;
   min-height:185px;
 }
 
@@ -434,6 +455,10 @@ pre {
   overflow: auto;
 }
 
+pre code {
+  padding: 0;
+}
+
 table {
   background: #fff6e9;
   display: table;
@@ -542,16 +567,4 @@ dd p:first-child {
   margin: .8em 0;
   font-size: .85em;
   font-style: italic;
-}
-
-a.title-link {
-  background-color: #7c334f;
-  font-size: 2.5em;
-  font-weight: 800;
-  font-style: normal;
-  text-transform: uppercase;
-  color: #ece4d8;
-  text-align: center;
-  line-height:1;
-  padding: 0;
 }

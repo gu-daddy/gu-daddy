@@ -237,11 +237,13 @@ section#downloads a em {
 }
 
 section#downloads a.zip {
+  margin-top: 30px;
   float: left;
   background-position: 0 0;
 }
 
 section#downloads a.tgz {
+  margin-top: 30px;
   float: right;
   background-position: -275px 0;
 }
@@ -257,7 +259,7 @@ span.banner-fix {
 
 section#main_content {
   z-index: 2;
-  padding: 20px 82px 0;
+  padding: 50px 82px 0;
   min-height:185px;
 }
 

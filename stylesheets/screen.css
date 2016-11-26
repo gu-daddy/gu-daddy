@@ -230,33 +230,18 @@ section#downloads a {
   font-size: 1.3em;
 }
 
-section#downloads p {
-  display: block;
-  position: relative;
-  height: 67px;
-  width: 275px;
-  padding-top: 115px;
-  background: transparent url(../images/download-sprite.png) 0 0 no-repeat;
-  text-align: center;
-  line-height: 1;
-  color: #fff;
-  font-family: 'Open Sans', Myriad, Calibri, sans-serif;
-  font-weight: 800;
-  font-size: 1.3em;
-}
-
 section#downloads a em {
   font: bold italic 12px/1 Georgia, Times, “Times New Roman”, serif;
   color: #83b7da;
   display: block;
 }
 
-section#downloads p.zip {
+section#downloads a.zip {
   float: left;
   background-position: 0 0;
 }
 
-section#downloads p.tgz {
+section#downloads a.tgz {
   float: right;
   background-position: -275px 0;
 }

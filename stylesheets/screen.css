@@ -236,12 +236,12 @@ section#downloads a em {
   display: block;
 }
 
-section#downloads a.zip {
+section#downloads span.zip {
   float: left;
   background-position: 0 0;
 }
 
-section#downloads a.tgz {
+section#downloads span.tgz {
   float: right;
   background-position: -275px 0;
 }
@@ -385,6 +385,7 @@ strong {
 
 em {
   font-style: italic;
+  font-weight: 20;
   color: #7c334f;
 }
 

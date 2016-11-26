@@ -212,7 +212,6 @@ div#no-downloads span.inner {
   position: relative;
   height: 197px;
   width: 550px;
-  padding-bottom: 30px;
   background: transparent url(../images/download-sprite.png) 0 0 no-repeat;
 }
 
@@ -220,27 +219,31 @@ section#downloads a {
   display: block;
   position: relative;
   height: 67px;
-  width: 550px;
+  width: 275px;
   padding-top: 130px;
   background: transparent url(../images/download-sprite.png) 0 0 no-repeat;
-  background-position: 0 0;
   text-align: center;
   line-height: 1;
   color: #fff;
   font-family: 'Open Sans', Myriad, Calibri, sans-serif;
   font-weight: 800;
-  font-size: 2.0em;
-}
-
-section#downloads a:hover {
-  text-decoration: none;
-  background-position: 0 -197px;
+  font-size: 1.3em;
 }
 
 section#downloads a em {
   font: bold italic 12px/1 Georgia, Times, “Times New Roman”, serif;
   color: #83b7da;
   display: block;
+}
+
+section#downloads a.zip {
+  float: left;
+  background-position: 0 0;
+}
+
+section#downloads a.tgz {
+  float: right;
+  background-position: -275px 0;
 }
 
 span.banner-fix {
@@ -382,6 +385,7 @@ strong {
 
 em {
   font-style: italic;
+  color: #7c334f;
 }
 
 ol {

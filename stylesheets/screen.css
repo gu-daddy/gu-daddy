@@ -221,10 +221,6 @@ section#downloads a {
   font-size: 1.3em;
 }
 
-section#downloads a:hover {
-  text-decoration: none;
-}
-
 section#downloads a em {
   font: bold italic 12px/1 Georgia, Times, “Times New Roman”, serif;
   color: #83b7da;
@@ -239,14 +235,6 @@ section#downloads a.zip {
 section#downloads a.tgz {
   float: right;
   background-position: -275px 0;
-}
-
-section#downloads a.zip:hover {
-  background-position: 0 -197px;
-}
-
-section#downloads a.tgz:hover {
-  background-position: -275px -197px;
 }
 
 span.banner-fix {
@@ -387,6 +375,7 @@ strong {
 }
 
 em {
+  color: #7c334f;
   font-style: italic;
 }
 

@@ -544,7 +544,7 @@ dd p:first-child {
   font-style: italic;
 }
 
-section#header a {
+a.title-link {
   background-color: #7c334f;
   font-size: 2.5em;
   font-weight: 800;

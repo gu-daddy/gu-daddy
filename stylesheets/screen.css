@@ -250,6 +250,10 @@ section#downloads a.tgz {
   background-position: -275px 0;
 }
 
+section#downloads a.bookmarklet {
+  display: inline-block;
+}
+
 section#downloads a.zip:hover {
   background-position: 0 -197px;
 }

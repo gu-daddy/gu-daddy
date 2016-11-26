@@ -269,7 +269,7 @@ span.banner-fix {
 
 section#main_content {
   z-index: 2;
-  padding: 50px 82px 0;
+  padding: 40px 82px 40px;
   min-height:185px;
 }
 

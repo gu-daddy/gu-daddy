@@ -257,7 +257,7 @@ span.banner-fix {
 
 section#main_content {
   z-index: 2;
-  padding: 50px 82px 0;
+  padding: 20px 82px 0;
   min-height:185px;
 }
 
@@ -384,9 +384,9 @@ strong {
 }
 
 em {
-  font-style: italic;
   font-weight: 20;
   color: #7c334f;
+  font-style: italic;
 }
 
 ol {

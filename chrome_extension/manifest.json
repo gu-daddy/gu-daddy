@@ -15,8 +15,15 @@
     "tabs"
   ],
   "background": {
-    "scripts": ["background.js", "gudaddy.js"],
+    "scripts": ["background.js"],
     "persistent": false
   },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
   "manifest_version": 2
 }
